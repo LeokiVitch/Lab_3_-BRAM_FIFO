@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_sc_fifo_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_sc_fifo" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="902.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="155"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tb_sc_fifo/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/SRST" type="logic">
+      <obj_property name="ElementShortName">SRST</obj_property>
+      <obj_property name="ObjectShortName">SRST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/DATA_IN" type="array">
+      <obj_property name="ElementShortName">DATA_IN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/WRITE_ENABLE" type="logic">
+      <obj_property name="ElementShortName">WRITE_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">WRITE_ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/READ_ENABLE" type="logic">
+      <obj_property name="ElementShortName">READ_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">READ_ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/DATA_COUNT" type="array">
+      <obj_property name="ElementShortName">DATA_COUNT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_COUNT[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/VALID" type="logic">
+      <obj_property name="ElementShortName">VALID</obj_property>
+      <obj_property name="ObjectShortName">VALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/DATA_OUT" type="array">
+      <obj_property name="ElementShortName">DATA_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/ALMOST_FULL" type="logic">
+      <obj_property name="ElementShortName">ALMOST_FULL</obj_property>
+      <obj_property name="ObjectShortName">ALMOST_FULL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/ALMOST_EMPTY" type="logic">
+      <obj_property name="ElementShortName">ALMOST_EMPTY</obj_property>
+      <obj_property name="ObjectShortName">ALMOST_EMPTY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/FULL" type="logic">
+      <obj_property name="ElementShortName">FULL</obj_property>
+      <obj_property name="ObjectShortName">FULL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/EMPTY" type="logic">
+      <obj_property name="ElementShortName">EMPTY</obj_property>
+      <obj_property name="ObjectShortName">EMPTY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/file_words" type="array">
+      <obj_property name="ElementShortName">file_words[0:31][15:0]</obj_property>
+      <obj_property name="ObjectShortName">file_words[0:31][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/stimulus_path" type="array">
+      <obj_property name="ElementShortName">stimulus_path[4095:0]</obj_property>
+      <obj_property name="ObjectShortName">stimulus_path[4095:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/plusarg_found" type="array">
+      <obj_property name="ElementShortName">plusarg_found[31:0]</obj_property>
+      <obj_property name="ObjectShortName">plusarg_found[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/file_handle" type="array">
+      <obj_property name="ElementShortName">file_handle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file_handle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/DEPTH" type="array">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/ALMOST_EMPTY_THRESHOLD" type="array">
+      <obj_property name="ElementShortName">ALMOST_EMPTY_THRESHOLD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALMOST_EMPTY_THRESHOLD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/ALMOST_FULL_THRESHOLD" type="array">
+      <obj_property name="ElementShortName">ALMOST_FULL_THRESHOLD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALMOST_FULL_THRESHOLD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/READ_LATENCY" type="array">
+      <obj_property name="ElementShortName">READ_LATENCY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_LATENCY[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sc_fifo/COUNT_WIDTH" type="array">
+      <obj_property name="ElementShortName">COUNT_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>

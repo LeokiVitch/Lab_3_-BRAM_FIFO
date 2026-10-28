@@ -1,0 +1,14 @@
+# Vivado-generated output
+.Xil/
+.cache/
+.runs/
+.sim/
+.hw/
+.ip_user_files/
+*.jou
+*.log
+*.pb
+*.wdb
+*.dcp
+*.rpt
+*.vds
